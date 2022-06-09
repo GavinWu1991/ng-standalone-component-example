@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start:standalone": "ng serve standalone-component-example",
+    "start:ngmodule": "ng serve ngmodule-component-example",
+    "build:standalone": "ng build standalone-component-example",
+    "build:ngmodule": "ng build ngmodule-component-example",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test:standalone": "ng test standalone-component-example",
+    "test:ngmodule": "ng test ngmodule-component-example"
   },
   "private": true,
   "dependencies": {
